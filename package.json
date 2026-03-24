@@ -1,0 +1,30 @@
+{
+  "name": "nelson-notebooklm-pdf-to-jpg",
+  "version": "1.0.0",
+  "description": "Convert PDF pages to JPG images, remove NotebookLM watermarks, and stitch into a long image",
+  "author": "Nelson",
+  "license": "MIT",
+  "homepage": "https://github.com/nelson/nelson-notebooklm-pdf-to-jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelson/nelson-notebooklm-pdf-to-jpg.git"
+  },
+  "keywords": [
+    "pdf",
+    "jpg",
+    "watermark-removal",
+    "notebooklm",
+    "opencv",
+    "pymupdf"
+  ],
+  "requires": {
+    "python_packages": [
+      "pymupdf>=1.27.0",
+      "opencv-python>=4.13.0",
+      "pillow>=10.0.0",
+      "numpy>=2.0.0"
+    ]
+  },
+  "entry_point": "nelson_notebooklm_pdf_to_jpg.py",
+  "cli_command": "python nelson_notebooklm_pdf_to_jpg.py"
+}
